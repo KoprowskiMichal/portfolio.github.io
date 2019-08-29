@@ -1,0 +1,325 @@
+@media (min-width: px) {
+	}
+	
+	@media (max-width: px) and (min-width: px) {
+
+	}
+	
+	@media (max-width: px) and (min-width: px) {
+}
+	
+	@media (max-width: px) and (min-width: px) {
+	
+	}
+	
+	@media (max-width: px) {
+	}
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family:monospace;
+	font-size: 2.7vh;
+	
+}
+h1
+{
+font-size: 3.2vh;
+}
+h1.logo
+{
+	font-size: 4.4vh; /*trzcionka rozmiar */
+	font-weight: 700; /* pogrubienie trzcionki */
+	color: #addd;
+	text-align: center;  /*logo na srodku*/
+	text-transform: uppercase; /*drukowane litery */
+	letter-spacing: 5px; /* rozstrzelenie liter*/
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+nav
+{
+	background-color: #1c74b2;
+	text-align: center;
+	
+
+
+}
+.menu /*classa menu*/
+{
+	list-style-type: none; /* zeruje kropki powstałe przez tabele */
+	margin:1px;
+	padding: 10px;
+	font-size: 2.5vh;
+	line-height: 200%;
+	min-height: 7vh;
+}
+.menu >li /* tylko na pojedynyczy aspekt*/
+{
+	display: inline-block;
+	padding-left: 20px; /* odstepy miedzy nimi*/
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+	margin-top: 1vh;
+}
+.menu >li:first-child /* dotyczy tylko 1 separatora ! */
+{
+	border-left:1px dashed #0a2b42; /* kreseczki z lewej strony nawigacji*/
+}
+.menu img
+{
+	width: auto;
+	height: 4vh;
+	margin-bottom: -1vh;
+
+}
+.menu a
+{
+color: #fff; /* to chyba nic mi nie daje :*/
+text-decoration: none;
+margin-right: 1vh;
+}
+.menu a:hover
+{
+	color: #0a2b42;
+}
+.box-1
+{
+
+display: flex;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.box-1 img
+{
+	width: 30vh;
+	height: auto;
+	margin-left: 5vh;
+	transition: all 0.2s ease-in-out;
+}
+.box-1 img:hover
+{
+	transform: scale(0.9);
+	opacity: 0.1;
+}
+.box1-3
+{
+min-width: 20rem;
+height: auto;
+text-align: center;
+margin-top:10vh;
+margin-left: 10vh;
+}
+.box1-3 h1
+{
+margin-right: 30%;	
+}	
+h1
+{
+color:white;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 4px;
+animation: moja_animacjaa 12s infinite;
+margin-bottom: 7vh;
+}
+@keyframes moja_animacjaa
+{
+0% { color:snow;}
+ 25% { color:gold; }
+ 50% { color:red; }
+75% { color: green; }
+100% { color: orange;}
+}
+.box1-4
+{
+width: 30vh;
+height: auto;
+text-align: center;
+margin-top:5vh;
+}
+.box2-1
+{
+background-color:#2F3336;
+display: flex;
+}
+
+.box2-2
+{
+margin-top:7vh;
+width: 100%;
+height: auto;
+margin-bottom: 5vh;
+}
+.box2-2 div
+{
+width: auto;
+margin:3vh;
+text-align: center;
+}
+.skills-ikon
+{
+	margin:1px;
+	padding: 10px;
+	font-size: 2.5vh;
+	line-height: 200%;
+	min-height: 7vh;
+}
+.skills-ikon a
+{
+	text-decoration: none;
+	color:#fff;
+}
+.box2-3
+{
+border-right:0.5px dashed white;
+}
+.box3-1
+{
+	background:#2F3336;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	
+	width:100%;
+	display: inline-block;
+}
+.imgproject
+{
+	display: inline-block;
+	width: 31%;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 3vh;
+}
+.photo1
+{
+width: 90%;
+display: inline-block;
+transition: transform .2s ease-in-out;
+}
+.photo1 img
+{
+width: 100%;
+border:5px solid white;
+}
+.photo1:hover
+{
+transform: scale(0.95)rotate(5deg);
+}
+.photo2
+{
+width: 90%;
+display: inline-block;
+
+}
+.photo2 img
+{
+transition: all 0.5s ease-in-out;
+width: 100%;
+border:5px solid white;
+
+}
+.photo2:hover img
+{
+transform: scale(1.15);
+}
+.photo3
+{
+width: 90%;
+display: inline-block;
+
+}
+.photo3 img
+{
+transition: all 0.7s ease-in-out;
+width: 100%;
+border:5px solid white;
+
+}
+.photo3:hover img
+{
+transform: scale(1.2) rotate(5deg);
+}
+.photo4
+{
+width: 90%;
+display: inline-block;
+transition: transform 3s ease-in-out;
+}
+.photo4 img
+{
+width: 100%;
+border:5px solid white;
+}
+.photo4:hover
+{
+transform: scale(0.95)rotate(360deg);
+}
+
+footer
+{	
+	background-color: #1c74b2;
+	margin:0;
+	border-radius: 1vh;
+	margin-bottom: 0;
+	padding: 2vh;
+	text-align: center;
+}
+a.linkcolor
+{
+	color: #fff;
+	text-decoration: none;
+}
+.socialdivs
+{
+	width: auto;
+	height:auto;
+	display: inline-flex;
+	justify-content: center;
+}
+.github
+{
+	display: inline-block;
+	margin-right:13vh;
+	margin-left:13vh;
+	
+}
+@media (max-width:800px){
+	.box2-1{
+		display: block;
+	 }
+	 .box2-3{
+	border-right:none;
+	}
+	.box3-1{
+		text-align: center;
+	}
+	.box2-3 p{
+		font-size:0.8rem;
+	}
+	.imgproject{
+		width: 46%;
+	}
+	.imgproject p{
+		font-size:0.8rem;
+	}
+	h1{
+		font-size:1.2rem;
+	}
+	.skills-ikon li{
+		font-size:0.8rem;
+		display: grid;
+	}
+	.footer{
+		width: 900px;
+	}
+	.menu a, i{
+		font-size:0.8rem;
+	}
+	.box1-3
+	{
+		font-size:0.8rem;
+	}
+}
